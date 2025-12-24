@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/portfoliooo',
+  base: process.env.VITE_BASE_PATH || "/portfoliooo"
 })
